@@ -1,0 +1,111 @@
+p {
+    margin-bottom: 0 !important;
+}
+.blog__page .__os-container__ {
+    max-width: 1850px;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+}
+
+.blog_top_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_top_div .one_post {
+    width: 67%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+}
+.one_post .post_info_div, .one_post .blog_title, .one_post>p {
+    padding: 0px 20px;
+}
+.blog_top_div .blog_sidebar {
+    width: 33%;
+    padding-left: 30px;
+}
+
+.blog_post_big_img {
+    width: 100%;
+    max-height: 363px;
+    object-fit: cover;
+}
+.post_info_div {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post_info_div .post_date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #171143;
+}
+
+.post_info_div .post_comment_number {
+    display: flex;
+    align-items: center;
+}
+.post_info_div .post_comment_number img {
+    width: 25px;
+    height: 23px;
+    margin-right: 12.5px;
+}
+.post_info_div .post_comment_number p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #171143;
+    margin-bottom: 0;
+}
+.one_post a:hover,article a:hover {
+    text-decoration: none;
+}
+.one_post h1, .blog_title, article .title a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #171143;
+}
+.one_post p, .blog_description, article p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #171143;
+}
+
+.blog_posts_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog_posts_div article {
+    max-width: 31%;
+    width: 100%;
+    margin: 15px !important;
+    padding: 0 !important;
+}
+.blog_posts_div article .post_info_div, .blog_post__title {
+    padding: 10px 20px;
+}
+article .article_img .thumb a img {
+    max-width: 582px;
+    max-height: 366px;
+    min-height: 366px;
+    width: 100%;
+    margin: auto;
+}
+.posted-date {
+    list-style-type: none;
+}
+.pagination {
+
+}
+
+
+
